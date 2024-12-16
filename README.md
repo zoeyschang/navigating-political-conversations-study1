@@ -2,7 +2,7 @@
 ## Introduction
 For our CS366 final research project, we used the OpenAI Javascript node.js package and OpenAI API to generate user personas for our Study 1 as part of a three-part study. 
 
-To use the `study1.js` file, put your own OpenAI API key in place of the comment "insert your own OpenAI API key here" to initialize the variable `openai`. Each user has a unique, secret OpenAI key that cannot be shared.
+To use the `study1.js` file, put your own OpenAI API key in place of the comment `//insert your own OpenAI API key here` to initialize the variable `openai`. Each user has a unique, secret OpenAI key that cannot be shared.
 
 For our prompt, we put this phrase "Generate 30 user personas of different people living in the United States who are politically left/independent/right. What are their beliefs? Where do they live? What are their main political concerns? Put this data into a CSV file for me to download." for the three political leanings. OpenAI then generated a separate CSV file for each of the three leanings. 
 
